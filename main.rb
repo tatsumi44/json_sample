@@ -6,6 +6,7 @@ require 'uri'
 require 'net/http'
 
 
+
 get '/' do
   base_url = 'http://wikipedia.simpleapi.net/api?output=html&keyword='
   if params[:keyword]
